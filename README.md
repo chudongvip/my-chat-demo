@@ -1,26 +1,21 @@
-# Vue 3 + Typescript + Vite
+# Vue3 + Tailwind + RTM = 实时聊天系统
 
-This template should help get you started developing with Vue 3 and Typescript in Vite.
+## Setup
 
-## Recommended IDE Setup
+### Config your RTM APPID
 
-[VSCode](https://code.visualstudio.com/) + [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur). Make sure to enable `vetur.experimental.templateInterpolationService` in settings!
+Press this [link](https://docs.anyrtc.io/cn/AnyRTCCloud/console/manage_projects#%E8%8E%B7%E5%8F%96app-id) to get your RTM APPID.
 
-### If Using `<script setup>`
+### Preview
 
-[`<script setup>`](https://github.com/vuejs/rfcs/pull/227) is a feature that is currently in RFC stage. To get proper IDE support for the syntax, use [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) instead of Vetur (and disable Vetur).
+```
+cd my-chat-demo
+npm run dev
+```
 
-## Type Support For `.vue` Imports in TS
+### Related Links
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can use the following:
-
-### If Using Volar
-
-Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
-
-### If Using Vetur
-
-1. Install and add `@vuedx/typescript-plugin-vue` to the [plugins section](https://www.typescriptlang.org/tsconfig#plugins) in `tsconfig.json`
-2. Delete `src/shims-vue.d.ts` as it is no longer needed to provide module info to Typescript
-3. Open `src/main.ts` in VSCode
-4. Open the VSCode command palette 5. Search and run "Select TypeScript version" -> "Use workspace version"
+- [Vite build Vue3](https://vitejs.cn/guide/#%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AA-vite-%E9%A1%B9%E7%9B%AE)
+- [tailwindcss](https://www.tailwindcss.cn/docs/installation)
+- [RTM Guides](https://docs.anyrtc.io/cn/RealTimeMessage/quickstart/setup/messaging_web)
+- [Get RTM APPID](https://docs.anyrtc.io/cn/AnyRTCCloud/console/manage_projects#%E8%8E%B7%E5%8F%96app-id)
